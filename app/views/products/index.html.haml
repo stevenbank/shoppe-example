@@ -1,6 +1,7 @@
 - active_nav_item :catalogue
 - @page_title = @product_category.name
-.category
+.category#users
+  %input{:type=>"text",:placeholder=>"search",:style=>"float: right;",:class=>"search"}
   %h2= @product_category.name
   - unless @product_category.description.blank?
     %p.intro= @product_category.description
