@@ -70,4 +70,3 @@ $ ->
       data: form.serialize()
       dataType: 'json'
       success: updateOrderItemsFromRemote
-
